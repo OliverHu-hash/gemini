@@ -11,7 +11,7 @@ st.title("陽明交大附中 - __________導覽") # 【填空 2】填入導覽�
 # 讀取背景知識
 
 #【填空 3】設定例外處理的開頭（嘗試執行）
-    with __________('__________', 'r', encoding='utf-8') as f: # 【填空 4、5】開啟檔案的函式與檔案名稱
+with __________('__________', 'r', encoding='utf-8') as f: # 【填空 4、5】開啟檔案的函式與檔案名稱
         context_data = json.__________(f) # 【填空 6】將 JSON 檔案讀取為 Python 資料的函式
         context_text = json.dumps(context_data, ensure_ascii=False)
 __________ FileNotFoundError: # 【填空 7】捕捉例外的關鍵字
